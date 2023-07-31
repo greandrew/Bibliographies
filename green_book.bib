@@ -1,4 +1,5 @@
 % Encoding: UTF-8
+
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
@@ -114,17 +115,17 @@
 
 @InProceedings{Telgarsky2016a,
   author        = {Matus Telgarsky},
-  title         = {benefits of depth in neural networks},
   booktitle     = {29th Annual Conference on Learning Theory},
+  title         = {benefits of depth in neural networks},
   year          = {2016},
-  editor        = {Vitaly Feldman and Alexander Rakhlin and Ohad Shamir},
-  volume        = {49},
-  series        = {Proceedings of Machine Learning Research},
-  pages         = {1517--1539},
   address       = {Columbia University, New York, New York, USA},
+  editor        = {Vitaly Feldman and Alexander Rakhlin and Ohad Shamir},
   month         = {23--26 Jun},
+  pages         = {1517--1539},
   publisher     = {PMLR},
-  abstract      = {For any positive integer k, there exist neural networks with Θ(k^3) layers, Θ(1) nodes per layer, and Θ(1) distinct parameters which can not be approximated by networks with O(k) layers unless they are exponentially large --- they must possess Ω(2^k) nodes. This result is proved here for a class of nodes termed \emphsemi-algebraic gates which includes the common choices of ReLU, maximum, indicator, and piecewise polynomial functions, therefore establishing benefits of depth against not just standard networks with ReLU gates, but also convolutional networks with ReLU and maximization gates, sum-product networks, and boosted decision trees (in this last case with a stronger separation: Ω(2^k^3) total tree nodes are required). },
+  series        = {Proceedings of Machine Learning Research},
+  volume        = {49},
+  abstract      = {For any positive integer k, there exist neural networks with Θ(k^3) layers, Θ(1) nodes per layer, and Θ(1) distinct parameters which can not be approximated by networks with O(k) layers unless they are exponentially large --- they must possess Ω(2^k) nodes. This result is proved here for a class of nodes termed \emphsemi-algebraic gates which includes the common choices of ReLU, maximum, indicator, and piecewise polynomial functions, therefore establishing benefits of depth against not just standard networks with ReLU gates, but also convolutional networks with ReLU and maximization gates, sum-product networks, and boosted decision trees (in this last case with a stronger separation: Ω(2^k^3) total tree nodes are required).},
   bdsk-url-1    = {http://proceedings.mlr.press/v49/telgarsky16.html},
   date-added    = {2018-04-22 08:45:22 +0000},
   date-modified = {2018-04-22 08:45:45 +0000},
@@ -1340,18 +1341,19 @@
 	Bdsk-Url-1 = {http://journals.cambridge.org/article_S0269964800003958},
 	Bdsk-Url-2 = {http://dx.doi.org/10.1017/S0269964800003958}}
 
-@article{Broadie1996a,
-	Abstract = { Simulation has proved to be a valuable tool for estimating security prices for which simple closed form solutions do not exist. In this paper we present two direct methods, a pathwise method and a likelihood ratio method, for estimating derivatives of security prices using simulation. With the direct methods, the information from a single simulation can be used to estimate multiple derivatives along with a security's price. The main advantage of the direct methods over resimulation is increased computational speed. Another advantage is that the direct methods give unbiased estimates of derivatives, whereas the estimates obtained by resimulation are biased. Computational results are given for both direct methods, and comparisons are made to the standard method of resimulation to estimate derivatives. The methods are illustrated for a path independent model (European options), a path dependent model (Asian options), and a model with multiple state variables (options with stochastic volatility). },
-	Author = {Broadie, Mark and Glasserman, Paul},
-	Date-Added = {2015-01-17 16:43:12 +0000},
-	Date-Modified = {2015-02-17 20:07:14 +0000},
-	Journal = {{Management Science}},
-	Number = {2},
-	Pages = {269--285},
-	Title = {{Estimating Security Price Derivatives Using Simulation}},
-	Volume = {42},
-	Year = {1996},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1287/mnsc.42.2.269}}
+@Article{Broadie1996a,
+  author        = {Broadie, Mark and Glasserman, Paul},
+  journal       = {{Management Science}},
+  title         = {{Estimating Security Price Derivatives Using Simulation}},
+  year          = {1996},
+  number        = {2},
+  pages         = {269--285},
+  volume        = {42},
+  abstract      = {Simulation has proved to be a valuable tool for estimating security prices for which simple closed form solutions do not exist. In this paper we present two direct methods, a pathwise method and a likelihood ratio method, for estimating derivatives of security prices using simulation. With the direct methods, the information from a single simulation can be used to estimate multiple derivatives along with a security's price. The main advantage of the direct methods over resimulation is increased computational speed. Another advantage is that the direct methods give unbiased estimates of derivatives, whereas the estimates obtained by resimulation are biased. Computational results are given for both direct methods, and comparisons are made to the standard method of resimulation to estimate derivatives. The methods are illustrated for a path independent model (European options), a path dependent model (Asian options), and a model with multiple state variables (options with stochastic volatility).},
+  bdsk-url-1    = {http://dx.doi.org/10.1287/mnsc.42.2.269},
+  date-added    = {2015-01-17 16:43:12 +0000},
+  date-modified = {2015-02-17 20:07:14 +0000},
+}
 
 @book{Glasserman1991a,
 	Address = {Boston},
@@ -1371,16 +1373,16 @@
 	Year = {2005},
 	Bdsk-Url-1 = {http://www.amazon.com/Stochastic-Calculus-Variations-Mathematical-Finance/dp/3540434313%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D3540434313}}
 
-@article{AboutFSharp,
-	Annote = { },
-	Author = {{F\# Software Foundation}},
-	Date-Added = {2014-12-28 18:51:25 +0000},
-	Date-Modified = {2015-02-18 20:57:50 +0000},
-	Journal = {{F\# Software Foundation}},
-	Title = {{About F\#}},
-	Url = {http://fsharp.org/about/index.html},
-	Year = {2014},
-	Bdsk-Url-1 = {http://fsharp.org/about/index.html}}
+@Article{AboutFSharp,
+  author        = {{F\# Software Foundation}},
+  journal       = {{F\# Software Foundation}},
+  title         = {{About F\#}},
+  year          = {2014},
+  bdsk-url-1    = {http://fsharp.org/about/index.html},
+  date-added    = {2014-12-28 18:51:25 +0000},
+  date-modified = {2015-02-18 20:57:50 +0000},
+  url           = {http://fsharp.org/about/index.html},
+}
 
 @article{JavaLE1997a,
 	Author = {Oracle},
@@ -3061,17 +3063,16 @@
 	Title = {{Re: Calculation of regulatory capital for counterparty risk}},
 	Year = 2001}
 
-@article{Deelstra2012a,
-	Annote = {
-},
-	Author = {Griselda Deelstra and Gr\'{e}gory Ray\'{e}e},
-	Date-Added = {2014-10-12 15:36:18 +0000},
-	Date-Modified = {2015-02-17 20:40:53 +0000},
-	Journal = {Arxiv},
-	Title = {{Local Volatility Pricing Models for Lond-dated FX Derivatives}},
-	Url = {http://arxiv.org/pdf/1204.0633v1.pdf},
-	Year = {2012},
-	Bdsk-Url-1 = {http://arxiv.org/pdf/1204.0633v1.pdf}}
+@Article{Deelstra2012a,
+  author        = {Griselda Deelstra and Gr\'{e}gory Ray\'{e}e},
+  journal       = {Arxiv},
+  title         = {{Local Volatility Pricing Models for Lond-dated FX Derivatives}},
+  year          = {2012},
+  bdsk-url-1    = {http://arxiv.org/pdf/1204.0633v1.pdf},
+  date-added    = {2014-10-12 15:36:18 +0000},
+  date-modified = {2015-02-17 20:40:53 +0000},
+  url           = {http://arxiv.org/pdf/1204.0633v1.pdf},
+}
 
 @article{Dennis2008a,
 	Author = {Chris Dennis},
@@ -6943,19 +6944,16 @@
 
 @Article{Hinton1989b,
   author   = {Hinton, Geoffrey E.},
-  title    = {Deterministic Boltzmann Learning Performs Steepest Descent in Weight-Space},
   journal  = {Neural Computation},
+  title    = {Deterministic Boltzmann Learning Performs Steepest Descent in Weight-Space},
   year     = {1989},
-  volume   = {1},
   number   = {1},
   pages    = {143-150},
-  abstract = { The Boltzmann machine learning procedure has been successfully applied in deterministic networks of analog units that use a mean field approximation to efficiently simulate a truly stochastic system (Peterson and Anderson 1987). This type of “deterministic Boltzmann machine” (DBM) learns much faster than the equivalent “stochastic Boltzmann machine” (SBM), but since the learning procedure for DBM's is only based on an analogy with SBM's, there is no existing proof that it performs gradient descent in any function, and it has only been justified by simulations. By using the appropriate interpretation for the way in which a DBM represents the probability of an output vector given an input vector, it is shown that the DBM performs steepest descent in the same function as the original SBM, except at rare discontinuities. A very simple way of forcing the weights to become symmetrical is also described, and this makes the DBM more biologically plausible than back-propagation (Werbos 1974; Parker 1985; Rumelhart et al. 1986). },
+  volume   = {1},
+  abstract = {The Boltzmann machine learning procedure has been successfully applied in deterministic networks of analog units that use a mean field approximation to efficiently simulate a truly stochastic system (Peterson and Anderson 1987). This type of “deterministic Boltzmann machine” (DBM) learns much faster than the equivalent “stochastic Boltzmann machine” (SBM), but since the learning procedure for DBM's is only based on an analogy with SBM's, there is no existing proof that it performs gradient descent in any function, and it has only been justified by simulations. By using the appropriate interpretation for the way in which a DBM represents the probability of an output vector given an input vector, it is shown that the DBM performs steepest descent in the same function as the original SBM, except at rare discontinuities. A very simple way of forcing the weights to become symmetrical is also described, and this makes the DBM more biologically plausible than back-propagation (Werbos 1974; Parker 1985; Rumelhart et al. 1986).},
   doi      = {10.1162/neco.1989.1.1.143},
   eprint   = {https://doi.org/10.1162/neco.1989.1.1.143},
-  url      = { 
-        https://doi.org/10.1162/neco.1989.1.1.143
-    
-},
+  url      = {https://doi.org/10.1162/neco.1989.1.1.143},
 }
 
 @Article{Hinton2006b,
@@ -7259,19 +7257,16 @@ Pattern recognition is concerned with the investigation of adaptive and analytic
 
 @Article{Kelley1960a,
   author  = {Kelley, Henry J.},
-  title   = {Gradient Theory of Optimal Flight Paths},
   journal = {ARS Journal},
+  title   = {Gradient Theory of Optimal Flight Paths},
   year    = {1960},
-  volume  = {30},
+  note    = {Available at \url{https://arc.aiaa.org/doi/abs/10.2514/8.5282}},
   number  = {10},
   pages   = {947-954},
-  note    = {Available at \url{https://arc.aiaa.org/doi/abs/10.2514/8.5282}},
+  volume  = {30},
   doi     = {10.2514/8.5282},
   eprint  = {https://doi.org/10.2514/8.5282},
-  url     = { 
-        https://doi.org/10.2514/8.5282
-    
-},
+  url     = {https://doi.org/10.2514/8.5282},
 }
 
 @InProceedings{Bryson1962a,
@@ -7680,18 +7675,15 @@ Pattern recognition is concerned with the investigation of adaptive and analytic
 
 @Article{Herault1986a,
   author  = {Herault,J. and Jutten,C.},
-  title   = {Space or time adaptive signal processing by neural network models},
   journal = {AIP Conference Proceedings},
+  title   = {Space or time adaptive signal processing by neural network models},
   year    = {1986},
-  volume  = {151},
   number  = {1},
   pages   = {206-211},
+  volume  = {151},
   doi     = {10.1063/1.36258},
   eprint  = {https://aip.scitation.org/doi/pdf/10.1063/1.36258},
-  url     = { 
-        https://aip.scitation.org/doi/abs/10.1063/1.36258
-    
-},
+  url     = {https://aip.scitation.org/doi/abs/10.1063/1.36258},
 }
 
 @Article{Sejnowski1986a,
@@ -7822,20 +7814,17 @@ Pattern recognition is concerned with the investigation of adaptive and analytic
 
 @Article{Ciersan2010a,
   author   = {Cire\c{s}an, Dan Claudiu and Meier, Ueli and Gambardella, Luca Maria and Schmidhuber, Jürgen},
-  title    = {Deep, Big, Simple Neural Nets for Handwritten Digit Recognition},
   journal  = {Neural Computation},
+  title    = {Deep, Big, Simple Neural Nets for Handwritten Digit Recognition},
   year     = {2010},
-  volume   = {22},
+  note     = {PMID: 20858131},
   number   = {12},
   pages    = {3207-3220},
-  note     = {PMID: 20858131},
-  abstract = { Good old online backpropagation for plain multilayer perceptrons yields a very low 0.35\% error rate on the MNIST handwritten digits benchmark. All we need to achieve this best result so far are many hidden layers, many neurons per layer, numerous deformed training images to avoid overfitting, and graphics cards to greatly speed up learning. },
+  volume   = {22},
+  abstract = {Good old online backpropagation for plain multilayer perceptrons yields a very low 0.35\% error rate on the MNIST handwritten digits benchmark. All we need to achieve this best result so far are many hidden layers, many neurons per layer, numerous deformed training images to avoid overfitting, and graphics cards to greatly speed up learning.},
   doi      = {10.1162/NECO\_a\_00052},
   eprint   = {https://doi.org/10.1162/NECO_a_00052},
-  url      = { 
-        https://doi.org/10.1162/NECO_a_00052
-    
-},
+  url      = {https://doi.org/10.1162/NECO_a_00052},
 }
 
 @InProceedings{He2016a,
@@ -8827,19 +8816,16 @@ A theory of learned sequential behavior is presented, with a focus on coarticula
 
 @Article{Stone2019a,
   author    = {Henry Stone},
-  title     = {Calibrating rough volatility models: a convolutional neural network approach},
   journal   = {Quantitative Finance},
+  title     = {Calibrating rough volatility models: a convolutional neural network approach},
   year      = {2019},
-  volume    = {0},
   number    = {0},
   pages     = {1-14},
+  volume    = {0},
   doi       = {10.1080/14697688.2019.1654126},
   eprint    = {https://doi.org/10.1080/14697688.2019.1654126},
   publisher = {Routledge},
-  url       = { 
-        https://doi.org/10.1080/14697688.2019.1654126
-    
-},
+  url       = {https://doi.org/10.1080/14697688.2019.1654126},
 }
 
 @Misc{Sezer2019a,
@@ -9063,19 +9049,16 @@ A theory of learned sequential behavior is presented, with a focus on coarticula
 
 @Article{Kuffler1953a,
   author  = {Kuffler, Stephen W.},
-  title   = {{Discharge Patterns and Functional Organization of Mammalian Retina}},
   journal = {{Journal of Neurophysiology}},
+  title   = {{Discharge Patterns and Functional Organization of Mammalian Retina}},
   year    = {1953},
-  volume  = {16},
+  note    = {PMID: 13035466},
   number  = {1},
   pages   = {37-68},
-  note    = {PMID: 13035466},
+  volume  = {16},
   doi     = {10.1152/jn.1953.16.1.37},
   eprint  = {https://doi.org/10.1152/jn.1953.16.1.37},
-  url     = { 
-        https://doi.org/10.1152/jn.1953.16.1.37
-    
-},
+  url     = {https://doi.org/10.1152/jn.1953.16.1.37},
 }
 
 @InCollection{Cowan1968a,
@@ -9414,13 +9397,13 @@ A theory of learned sequential behavior is presented, with a focus on coarticula
 
 @Article{Brindley1969a,
   author   = {Brindley, Giles Skey},
-  title    = {{Nerve net models of plausible size that perform many simple learning tasks}},
   journal  = {{Proceedings of the Royal Society of London. Series B. Biological Sciences}},
+  title    = {{Nerve net models of plausible size that perform many simple learning tasks}},
   year     = {1969},
-  volume   = {174},
   number   = {1035},
   pages    = {173-191},
-  abstract = { Nerve net models are designed that can learn up to γ of αn possible sequences of stimuli, where γ is large but αn much larger still. The models proposed store information in modifiable synapses. Their connexions need to be specified only in a general way, a large part being random. They resist destruction of a good many cells. When built with Hebb synapses (or any other class B or C synapses whose modification depends on the conjunction of activities in two cells) they demand a number of inputs to each cell that agrees well with known anatomy. The number of cells required, for performing tasks of the kind considered as well as the human brain can perform them, is only a small fraction of the number of cells in the brain. It is suggested that the models proposed are likely to be the most economical possible for their tasks, components and constructional constraints, and that any others that approach them in economy must share with them certain observable features, in particular an abundance of cells with many independent inputs and low thresholds. },
+  volume   = {174},
+  abstract = {Nerve net models are designed that can learn up to γ of αn possible sequences of stimuli, where γ is large but αn much larger still. The models proposed store information in modifiable synapses. Their connexions need to be specified only in a general way, a large part being random. They resist destruction of a good many cells. When built with Hebb synapses (or any other class B or C synapses whose modification depends on the conjunction of activities in two cells) they demand a number of inputs to each cell that agrees well with known anatomy. The number of cells required, for performing tasks of the kind considered as well as the human brain can perform them, is only a small fraction of the number of cells in the brain. It is suggested that the models proposed are likely to be the most economical possible for their tasks, components and constructional constraints, and that any others that approach them in economy must share with them certain observable features, in particular an abundance of cells with many independent inputs and low thresholds.},
   doi      = {10.1098/rspb.1969.0087},
   eprint   = {https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.1969.0087},
   url      = {https://royalsocietypublishing.org/doi/abs/10.1098/rspb.1969.0087},
@@ -9874,18 +9857,15 @@ Pезюме
 
 @Article{Davis1952a,
   author  = {Davis,K. H. and Biddulph,R. and Balashek,S.},
-  title   = {Automatic Recognition of Spoken Digits},
   journal = {The Journal of the Acoustical Society of America},
+  title   = {Automatic Recognition of Spoken Digits},
   year    = {1952},
-  volume  = {24},
   number  = {6},
   pages   = {637-642},
+  volume  = {24},
   doi     = {10.1121/1.1906946},
   eprint  = {https://doi.org/10.1121/1.1906946},
-  url     = { 
-        https://doi.org/10.1121/1.1906946
-    
-},
+  url     = {https://doi.org/10.1121/1.1906946},
 }
 
 @Article{Fujiyoshi2019a,
@@ -10581,19 +10561,16 @@ Pезюме
 
 @Article{Halperin2019a,
   author    = {Igor Halperin},
-  title     = {The QLBS Q-Learner goes NuQLear: fitted Q iteration, inverse RL, and option portfolios},
   journal   = {Quantitative Finance},
+  title     = {The QLBS Q-Learner goes NuQLear: fitted Q iteration, inverse RL, and option portfolios},
   year      = {2019},
-  volume    = {19},
   number    = {9},
   pages     = {1543-1553},
+  volume    = {19},
   doi       = {10.1080/14697688.2019.1622302},
   eprint    = {https://doi.org/10.1080/14697688.2019.1622302},
   publisher = {Routledge},
-  url       = { 
-        https://doi.org/10.1080/14697688.2019.1622302
-    
-},
+  url       = {https://doi.org/10.1080/14697688.2019.1622302},
 }
 
 @InProceedings{Azhikodan2019a,
@@ -11066,17 +11043,17 @@ Pезюме
 
 @InProceedings{Kidger2020a,
   author    = {Kidger, Patrick and Lyons, Terry},
-  title     = {{Universal Approximation with Deep Narrow Networks}},
   booktitle = {{Arxiv}},
+  title     = {{Universal Approximation with Deep Narrow Networks}},
   year      = {2020},
   editor    = {Jacob Abernethy and Shivani Agarwal},
-  volume    = {125},
-  series    = {Proceedings of Machine Learning Research},
-  pages     = {2306--2327},
   month     = {09--12 Jul},
-  publisher = {PMLR},
   note      = {Available at \url{https://arxiv.org/abs/1905.08539}},
-  abstract  = { The classical Universal Approximation Theorem holds for neural networks of arbitrary width and bounded depth. Here we consider the natural ‘dual’ scenario for networks of bounded width and arbitrary depth. Precisely, let $n$ be the number of inputs neurons, $m$ be the number of output neurons, and let $\rho$ be any nonaffine continuous function, with a continuous nonzero derivative at some point. Then we show that the class of neural networks of arbitrary depth, width $n + m + 2$, and activation function $\rho$, is dense in $C(K; \mathbb{R}^m)$ for $K \subseteq \mathbb{R}^n$ with $K$ compact. This covers every activation function possible to use in practice, and also includes polynomial activation functions, which is unlike the classical version of the theorem, and provides a qualitative difference between deep narrow networks and shallow wide networks. We then consider several extensions of this result. In particular we consider nowhere differentiable activation functions, density in noncompact domains with respect to the $L^p$-norm, and how the width may be reduced to just $n + m + 1$ for ‘most’ activation functions.},
+  pages     = {2306--2327},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {125},
+  abstract  = {The classical Universal Approximation Theorem holds for neural networks of arbitrary width and bounded depth. Here we consider the natural ‘dual’ scenario for networks of bounded width and arbitrary depth. Precisely, let $n$ be the number of inputs neurons, $m$ be the number of output neurons, and let $\rho$ be any nonaffine continuous function, with a continuous nonzero derivative at some point. Then we show that the class of neural networks of arbitrary depth, width $n + m + 2$, and activation function $\rho$, is dense in $C(K; \mathbb{R}^m)$ for $K \subseteq \mathbb{R}^n$ with $K$ compact. This covers every activation function possible to use in practice, and also includes polynomial activation functions, which is unlike the classical version of the theorem, and provides a qualitative difference between deep narrow networks and shallow wide networks. We then consider several extensions of this result. In particular we consider nowhere differentiable activation functions, density in noncompact domains with respect to the $L^p$-norm, and how the width may be reduced to just $n + m + 1$ for ‘most’ activation functions.},
   file      = {kidger20a.pdf:http\://proceedings.mlr.press/v125/kidger20a/kidger20a.pdf:PDF},
   url       = {http://proceedings.mlr.press/v125/kidger20a.html},
 }
@@ -11600,18 +11577,18 @@ Pезюме
 
 @InProceedings{Sutskever2013a,
   author    = {Ilya Sutskever and James Martens and George Dahl and Geoffrey Hinton},
-  title     = {On the importance of initialization and momentum in deep learning},
   booktitle = {Proceedings of the 30th International Conference on Machine Learning},
+  title     = {On the importance of initialization and momentum in deep learning},
   year      = {2013},
-  editor    = {Sanjoy Dasgupta and David McAllester},
-  volume    = {28},
-  number    = {3},
-  series    = {Proceedings of Machine Learning Research},
-  pages     = {1139--1147},
   address   = {Atlanta, Georgia, USA},
+  editor    = {Sanjoy Dasgupta and David McAllester},
   month     = {17--19 Jun},
+  number    = {3},
+  pages     = {1139--1147},
   publisher = {PMLR},
-  abstract  = {Deep and recurrent neural networks (DNNs and RNNs respectively) are powerful models that were considered to be almost impossible to train using stochastic gradient descent with momentum. In this paper, we show that when stochastic gradient descent with momentum uses a well-designed random initialization and a particular type of slowly increasing schedule for the momentum parameter, it can train both DNNs and RNNs (on datasets with long-term dependencies) to levels of performance that were previously achievable only with Hessian-Free optimization. We find that both the initialization and the momentum are crucial since poorly initialized networks cannot be trained with momentum and well-initialized networks perform markedly worse when the momentum is absent or poorly tuned.     Our success training these models suggests that previous attempts to train deep and recurrent neural networks from random initializations have likely failed due to poor initialization schemes. Furthermore, carefully tuned momentum methods suffice for dealing with the curvature issues in deep and recurrent network training objectives without the need for sophisticated second-order methods.   },
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {28},
+  abstract  = {Deep and recurrent neural networks (DNNs and RNNs respectively) are powerful models that were considered to be almost impossible to train using stochastic gradient descent with momentum. In this paper, we show that when stochastic gradient descent with momentum uses a well-designed random initialization and a particular type of slowly increasing schedule for the momentum parameter, it can train both DNNs and RNNs (on datasets with long-term dependencies) to levels of performance that were previously achievable only with Hessian-Free optimization. We find that both the initialization and the momentum are crucial since poorly initialized networks cannot be trained with momentum and well-initialized networks perform markedly worse when the momentum is absent or poorly tuned.     Our success training these models suggests that previous attempts to train deep and recurrent neural networks from random initializations have likely failed due to poor initialization schemes. Furthermore, carefully tuned momentum methods suffice for dealing with the curvature issues in deep and recurrent network training objectives without the need for sophisticated second-order methods.},
   file      = {sutskever13.pdf:http\://proceedings.mlr.press/v28/sutskever13.pdf:PDF},
   url       = {http://proceedings.mlr.press/v28/sutskever13.html},
 }
@@ -11960,18 +11937,15 @@ Pезюме
 
 @Article{Pukrittayakamee2009a,
   author  = {Pukrittayakamee,A. and Malshe,M. and Hagan,M. and Raff,L. M. and Narulkar,R. and Bukkapatnum,S. and Komanduri,R.},
-  title   = {Simultaneous fitting of a potential-energy surface and its corresponding force fields using feedforward neural networks},
   journal = {The Journal of Chemical Physics},
+  title   = {Simultaneous fitting of a potential-energy surface and its corresponding force fields using feedforward neural networks},
   year    = {2009},
-  volume  = {130},
   number  = {13},
   pages   = {134101},
+  volume  = {130},
   doi     = {10.1063/1.3095491},
   eprint  = {https://doi.org/10.1063/1.3095491},
-  url     = { 
-        https://doi.org/10.1063/1.3095491
-    
-},
+  url     = {https://doi.org/10.1063/1.3095491},
 }
 
 @InProceedings{Rifai2011a,
@@ -15825,42 +15799,30 @@ learn recognizable features of ImageNet classes.},
 
 @Article{Cont2001a,
   author    = {R. Cont},
-  title     = {{Empirical properties of asset returns: stylized facts and statistical issues}},
   journal   = {{Quantitative Finance}},
+  title     = {{Empirical properties of asset returns: stylized facts and statistical issues}},
   year      = {2001},
-  volume    = {1},
   number    = {2},
   pages     = {223-236},
+  volume    = {1},
   doi       = {10.1080/713665670},
   eprint    = {https://doi.org/10.1080/713665670},
   publisher = {Routledge},
-  url       = { 
-    
-        https://doi.org/10.1080/713665670
-    
-    
-
-},
+  url       = {https://doi.org/10.1080/713665670},
 }
 
 @Article{Koshiyama2021a,
   author    = {Adriano Koshiyama and Nick Firoozye and Philip Treleaven},
-  title     = {{Generative adversarial networks for financial trading strategies fine-tuning and combination}},
   journal   = {{Quantitative Finance}},
+  title     = {{Generative adversarial networks for financial trading strategies fine-tuning and combination}},
   year      = {2021},
-  volume    = {21},
   number    = {5},
   pages     = {797-813},
+  volume    = {21},
   doi       = {10.1080/14697688.2020.1790635},
   eprint    = {https://doi.org/10.1080/14697688.2020.1790635},
   publisher = {Routledge},
-  url       = { 
-    
-        https://doi.org/10.1080/14697688.2020.1790635
-    
-    
-
-},
+  url       = {https://doi.org/10.1080/14697688.2020.1790635},
 }
 
 @MastersThesis{MeerPardo2019,
@@ -16456,22 +16418,16 @@ learn recognizable features of ImageNet classes.},
 
 @Article{Marsaglia1984a,
   author   = {Marsaglia, George and Olkin, Ingram},
-  title    = {{Generating Correlation Matrices}},
   journal  = {{SIAM Journal on Scientific and Statistical Computing}},
+  title    = {{Generating Correlation Matrices}},
   year     = {1984},
-  volume   = {5},
   number   = {2},
   pages    = {470-475},
-  abstract = { This paper describes a variety of methods for generating random correlation matrices, with emphasis on choice of random variables and distributions so as to provide matrices with given structure, expected values or eigenvalues. },
+  volume   = {5},
+  abstract = {This paper describes a variety of methods for generating random correlation matrices, with emphasis on choice of random variables and distributions so as to provide matrices with given structure, expected values or eigenvalues.},
   doi      = {10.1137/0905034},
   eprint   = {https://doi.org/10.1137/0905034},
-  url      = { 
-    
-        https://doi.org/10.1137/0905034
-    
-    
-
-},
+  url      = {https://doi.org/10.1137/0905034},
 }
 
 @Article{Archakov2022a,
@@ -16660,22 +16616,16 @@ learn recognizable features of ImageNet classes.},
 
 @Article{Bayer2023a,
   author   = {Bayer, Christian and Eigel, Martin and Sallandt, Leon and Trunschke, Philipp},
-  title    = {{Pricing High-Dimensional Bermudan Options with Hierarchical Tensor Formats}},
   journal  = {{SIAM Journal on Financial Mathematics}},
+  title    = {{Pricing High-Dimensional Bermudan Options with Hierarchical Tensor Formats}},
   year     = {2023},
-  volume   = {14},
   number   = {2},
   pages    = {383-406},
-  abstract = { Abstract. An efficient compression technique based on hierarchical tensors for popular option pricing methods is presented. It is shown that the “curse of dimensionality” can be alleviated for the computation of Bermudan option prices with the Monte Carlo least-squares approach as well as the dual martingale method, both using high-dimensional tensorized polynomial expansions. Complexity estimates are provided as well as a description of the optimization procedures in the tensor train format. Numerical experiments illustrate the favorable accuracy of the proposed methods. The dynamical programming method yields results comparable to recent neural network based methods. },
+  volume   = {14},
+  abstract = {Abstract. An efficient compression technique based on hierarchical tensors for popular option pricing methods is presented. It is shown that the “curse of dimensionality” can be alleviated for the computation of Bermudan option prices with the Monte Carlo least-squares approach as well as the dual martingale method, both using high-dimensional tensorized polynomial expansions. Complexity estimates are provided as well as a description of the optimization procedures in the tensor train format. Numerical experiments illustrate the favorable accuracy of the proposed methods. The dynamical programming method yields results comparable to recent neural network based methods.},
   doi      = {10.1137/21M1402170},
   eprint   = {https://doi.org/10.1137/21M1402170},
-  url      = { 
-    
-        https://doi.org/10.1137/21M1402170
-    
-    
-
-},
+  url      = {https://doi.org/10.1137/21M1402170},
 }
 
 @Article{,
@@ -18344,6 +18294,7 @@ La connaissance du langage repose-t-elle sur la représentation mentale de règl
   year         = {2023},
   url          = {https://www.youtube.com/},
 }
+
 {Ettinger_2021_ICCV, author={Ettinger, Scott and Cheng, Shuyang and Caine, Benjamin and Liu, Chenxi and Zhao, Hang and Pradhan, Sabeek and Chai, Yuning and Sapp, Ben and Qi, Charles R. and Zhou, Yin and Yang, Zoey and Chouard, Aur'elien and Sun, Pei and Ngiam, Jiquan and Vasudevan, Vijay and McCauley, Alexander and Shlens, Jonathon and Anguelov, Dragomir}, title={Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset}, booktitle= Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}, month={October}, year={2021}, pages={9710-9719} }
 
 @Article{Chen2023a,
@@ -18850,63 +18801,309 @@ La connaissance du langage repose-t-elle sur la représentation mentale de règl
 }
 
 @Misc{AWS2006a,
-  author        = {AWS},
-  title         = {Announcing {Amazon Elastic Compute Cloud (Amazon EC2)} - beta},
-  howpublished  = {AWS News Blog},
-  month         = {August},
-  year          = {2006},
-  note          = {Accessed: 30-07-2023},
-  __markedentry = {[andrew:]},
-  day           = {24},
-  url           = {https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/},
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {August},
+  note         = {Accessed: 30-07-2023},
+  title        = {Announcing {Amazon Elastic Compute Cloud (Amazon EC2)} - beta},
+  year         = {2006},
+  day          = {24},
+  groups       = {[andrew:]},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/},
 }
 
 @Misc{Google2008a,
-  author        = {{Google Developer Blog}},
-  title         = {Introducing Google App Engine + our new blog},
-  howpublished  = {{Google Developer Blog}},
-  month         = {April},
-  year          = {2008},
-  note          = {Accessed: 30-07-2023},
-  __markedentry = {[andrew:]},
-  day           = {7},
-  url           = {http://googleappengine.blogspot.com/2008/04/introducing-google-app-engine-our-new.html},
+  author       = {{Google Developer Blog}},
+  howpublished = {{Google Developer Blog}},
+  month        = {April},
+  note         = {Accessed: 30-07-2023},
+  title        = {Introducing Google App Engine + our new blog},
+  year         = {2008},
+  day          = {7},
+  groups       = {[andrew:]},
+  url          = {http://googleappengine.blogspot.com/2008/04/introducing-google-app-engine-our-new.html},
 }
 
 @Misc{AWS2004a,
-  author        = {AWS},
-  title         = {Introducing the Amazon Simple Queue Service},
-  howpublished  = {AWS News Blog},
-  month         = {November},
-  year          = {2004},
-  note          = {Accessed: 30-07-2023},
-  __markedentry = {[andrew:]},
-  day           = {3},
-  url           = {https://aws.amazon.com/about-aws/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/},
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {November},
+  note         = {Accessed: 30-07-2023},
+  title        = {Introducing the Amazon Simple Queue Service},
+  year         = {2004},
+  day          = {3},
+  groups       = {[andrew:]},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/},
 }
 
 @Article{Barr2009a,
-  author        = {Jeff Barr},
-  title         = {{New Features for Amazon EC2: Elastic Load Balancing, Auto Scaling, and Amazon CloudWatch}},
-  journal       = {AWS News Blog},
-  year          = {2009},
-  month         = {May},
-  note          = {Accessed: 30-07-2023},
-  __markedentry = {[andrew:]},
-  day           = {18},
-  url           = {https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/},
+  author  = {Jeff Barr},
+  journal = {AWS News Blog},
+  title   = {{New Features for Amazon EC2: Elastic Load Balancing, Auto Scaling, and Amazon CloudWatch}},
+  year    = {2009},
+  month   = {May},
+  note    = {Accessed: 30-07-2023},
+  day     = {18},
+  groups  = {[andrew:]},
+  url     = {https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/},
 }
 
-@Article{Barr2009,
-  author        = {Jeff Barr},
-  title         = {Introducing Amazon Virtual Private Cloud (VPC)},
-  journal       = {AWS News Blog},
-  year          = {2009},
-  month         = {August},
-  note          = {Accessed: [current date]},
-  __markedentry = {[andrew:6]},
-  day           = {25},
-  url           = {https://aws.amazon.com/blogs/aws/introducing-amazon-virtual-private-cloud-vpc/},
+@Article{Barr2009a,
+  author  = {Jeff Barr},
+  journal = {AWS News Blog},
+  title   = {Introducing Amazon Virtual Private Cloud (VPC)},
+  year    = {2009},
+  month   = {August},
+  note    = {Accessed: [current date]},
+  day     = {25},
+  groups  = {andrew:6},
+  url     = {https://aws.amazon.com/blogs/aws/introducing-amazon-virtual-private-cloud-vpc/},
+}
+
+@Misc{AWS2009a,
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {October},
+  note         = {Accessed: 31-07-2023},
+  title        = {Introducing Amazon Relational Database Service},
+  year         = {2009},
+  day          = {27},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-database-service/},
+}
+
+@Misc{AWS2009b,
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {March},
+  note         = {Accessed: 31-07-2023},
+  title        = {Amazon EC2 Introduces Reserved Instances},
+  year         = {2009},
+  day          = {12},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2009/03/12/amazon-ec2-introduces-reserved-instances/},
+}
+
+@Misc{AWS2009c,
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {December},
+  note         = {Accessed: 31-07-2023},
+  title        = {Announcing Amazon EC2 Spot Instances},
+  year         = {2009},
+  day          = {14},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2009/12/14/announcing-amazon-ec2-spot-instances/},
+}
+
+@Misc{OpenStack2021a,
+  author       = {OpenStack},
+  howpublished = {OpenStack Project Team Guide},
+  note         = {Last updated on June 4, 2021, at 10:25:43},
+  title        = {Introduction: A Bit of OpenStack History},
+  url          = {https://docs.openstack.org/project-team-guide/introduction.html},
+  urldate      = {31-07-2023},
+}
+
+@Misc{Duskic2013a,
+  author       = {Goran Duskic},
+  howpublished = {WhoAPI Blog},
+  month        = {December},
+  note         = {Accessed: 31-07-2023},
+  title        = {Fast growing DigitalOcean is fueled by customer love},
+  year         = {2013},
+  day          = {26},
+  url          = {https://whoapi.com/blog/fast-growing-digitalocean-is-fueled-by-customer-love/},
+}
+
+@Misc{AWSTeam2011a,
+  author       = {{The AWS Team}},
+  howpublished = {AWS News Blog},
+  month        = {April},
+  note         = {Accessed: 31-07-2023},
+  title        = {Summary of the {Amazon EC2} and {Amazon RDS} Service Disruption in the {US East Region}},
+  year         = {2011},
+  day          = {29},
+  url          = {https://aws.amazon.com/message/65648/},
+}
+
+@Misc{MaltaIndependent2012a,
+  author       = {{Malta Independent}},
+  howpublished = {Malta Independent},
+  month        = {June},
+  note         = {Accessed: 31-07-2023},
+  title        = {Microsoft Announces new {Windows Azure} services and enhancements},
+  year         = {2012},
+  day          = {30},
+  url          = {https://www.independent.com.mt/articles/2012-06-30/local-news/Microsoft-Announces-new-Windows-Azure-services-and-enhancements-312339},
+}
+
+@Misc{Clark2013a,
+  author       = {Jack Clark},
+  howpublished = {The Register},
+  month        = {March},
+  note         = {Accessed: 31-07-2023},
+  title        = {Report: {AWS} gets \$600m contract to build {CIA} spy cloud},
+  year         = {2013},
+  day          = {19},
+  url          = {https://www.theregister.com/2013/03/19/aws_allegedly_helps_cia_build_spy_cloud/},
+}
+
+@Misc{AWS2013a,
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {November},
+  note         = {Accessed: 31-07-2023},
+  title        = {Announcing {AWS CloudTrail}},
+  year         = {2013},
+  day          = {13},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2013/11/13/announcing-aws-cloudtrail/},
+}
+
+@Misc{AWS2013b,
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {November},
+  note         = {Accessed: 31-07-2023},
+  title        = {Introducing {Amazon Kinesis}},
+  year         = {2013},
+  day          = {14},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/},
+}
+
+@Misc{Google2014a,
+  author       = {Google},
+  howpublished = {Google Cloud Platform Blog},
+  month        = {April},
+  note         = {Accessed: 31-07-2023},
+  title        = {Introducing Sustained Use Discounts - Automatically pay less for sustained workloads on Compute Engine},
+  year         = {2014},
+  day          = {4},
+  url          = {https://cloudplatform.googleblog.com/2014/04/introducing-sustained-use-discounts.html},
+}
+
+@Misc{DOrazio2014a,
+  author       = {Dante D'Orazio},
+  howpublished = {The Verge},
+  month        = {February},
+  note         = {Accessed: 31-07-2023},
+  title        = {Read Satya Nadella's first letter to employees as Microsoft's CEO},
+  year         = {2014},
+  day          = {4},
+  url          = {https://www.theverge.com/2014/2/4/5377318/microsoft-ceo-satya-nadella-first-letter-to-employees},
+}
+
+@Misc{IBM2013a,
+  author       = {IBM},
+  howpublished = {StreetInsider.com},
+  month        = {June},
+  note         = {Accessed: [current date]},
+  title        = {{IBM (IBM) to Acquire Public Cloud Provider SoftLayer}},
+  year         = {2013},
+  day          = {4},
+  time         = {8:51},
+  url          = {https://www.streetinsider.com/Mergers+and+Acquisitions/IBM+%28IBM%29+to+Acquire+Public+Cloud+Provider+SoftLayer/8388478.html},
+}
+
+@Misc{VCPT2013a,
+  author       = {{VMware Cloud Provider Team}},
+  howpublished = {VMware Cloud Provider Blog},
+  month        = {May},
+  note         = {Accessed: [current date]},
+  title        = {Introducing vCloud Hybrid Service},
+  year         = {2013},
+  day          = {21},
+  url          = {https://blogs.vmware.com/cloudprovider/2013/05/introducing-vcloud-hybrid-service.html},
+}
+
+@Misc{Morgan2012a,
+  author       = {Timothy Prickett Morgan},
+  howpublished = {The Register},
+  month        = {December},
+  note         = {Accessed: [current date]},
+  title        = {HP's public cloud open for compute business},
+  year         = {2012},
+  day          = {5},
+  url          = {https://www.theregister.com/2012/12/05/hp_public_cloud_cloudsystem_updates/},
+}
+
+@Misc{Foley2014a,
+  author       = {Mary Jo Foley},
+  howpublished = {ZDNet},
+  month        = {October},
+  note         = {Accessed: 31-07-2023},
+  title        = {Docker container support coming to {Microsoft's} next {Windows Server} release},
+  year         = {2014},
+  day          = {15},
+  url          = {https://www.zdnet.com/article/docker-container-support-coming-to-microsofts-next-windows-server-release/},
+}
+
+@Misc{Hamori2023a,
+  author       = {Ferenc H\'{a}mori},
+  howpublished = {RisingStack Blog},
+  month        = {June},
+  note         = {Last updated on June 26, 2023},
+  title        = {The History of Kubernetes on a Timeline},
+  year         = {2023},
+  day          = {26},
+  url          = {https://blog.risingstack.com/the-history-of-kubernetes/},
+}
+
+@Misc{Google2015a,
+  author       = {Google},
+  howpublished = {Google Cloud Platform Blog},
+  month        = {August},
+  note         = {Accessed: 31-07-2023},
+  title        = {{Google Container Engine is Generally Available}},
+  year         = {2015},
+  day          = {26},
+  url          = {https://cloudplatform.googleblog.com/2015/08/Google-Container-Engine-is-Generally-Available.html},
+}
+
+@Misc{AWS2017a,
+  author       = {AWS},
+  howpublished = {AWS News Blog},
+  month        = {November},
+  note         = {Accessed: 31-07-2023},
+  title        = {Introducing {Amazon Elastic Container Service for Kubernetes (Preview)}},
+  year         = {2017},
+  day          = {29},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-elastic-container-service-for-kubernetes/},
+}
+
+@Misc{MicrosoftAzure2017a,
+  author       = {{Microsoft Azure}},
+  howpublished = {Microsoft Azure Blog},
+  month        = {October},
+  note         = {Accessed: 31-07-2023},
+  title        = {Introducing AKS (managed Kubernetes) and Azure Container Registry improvements},
+  year         = {2017},
+  day          = {24},
+  url          = {https://azure.microsoft.com/en-us/blog/introducing-azure-container-service-aks-managed-kubernetes-and-azure-container-registry-geo-replication/},
+}
+
+@Misc{BenDavid2020b,
+  author       = {Ben-David, Jacob},
+  howpublished = {Website},
+  month        = {January 21},
+  title        = {{The History of Cloud Computing: Two Decades in Review (Part 3)}},
+  year         = {2020},
+  url          = {https://www.linkedin.com/pulse/history-cloud-computing-two-decades-review-part-2-jacob-ben-david/},
+}
+
+@Misc{Novet2016,
+  author       = {Jordan Novet},
+  howpublished = {VentureBeat},
+  month        = {January},
+  note         = {Accessed: [current date]},
+  title        = {Amazon Web Services brings in \$2.4B in revenue in Q4 2015, up 69\% over last year},
+  year         = {2016},
+  day          = {28},
+  url          = {https://venturebeat.com/dev/amazon-web-services-brings-in-2-4b-in-revenue-in-q4-2015-up-69-over-last-year/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Markings\;2\;1\;\;\;\;;
+2 StaticGroup:[andrew:]\;2\;1\;\;\;\;;
+2 StaticGroup:andrew:6\;2\;1\;\;\;\;;
+}
