@@ -22181,15 +22181,14 @@ La connaissance du langage repose-t-elle sur la représentation mentale de règl
 }
 
 @Article{Mandelbrot1968a,
-  author        = {Mandelbrot, Benoit B and Van Ness, John W},
-  title         = {{Fractional Brownian motions, fractional noises and applications}},
-  journal       = {{SIAM Review}},
-  year          = {1968},
-  volume        = {10},
-  number        = {4},
-  pages         = {422--437},
-  __markedentry = {[andrew:]},
-  publisher     = {SIAM},
+  author    = {Mandelbrot, Benoit B and Van Ness, John W},
+  title     = {{Fractional Brownian motions, fractional noises and applications}},
+  journal   = {{SIAM Review}},
+  year      = {1968},
+  volume    = {10},
+  number    = {4},
+  pages     = {422--437},
+  publisher = {SIAM},
 }
 
 @Article{Chataigner2020a,
@@ -22207,18 +22206,17 @@ La connaissance du langage repose-t-elle sur la représentation mentale de règl
 }
 
 @Article{Crepey2002a,
-  author        = {S Crépey},
-  title         = {{Calibration of the local volatility in a trinomial tree using Tikhonov regularization}},
-  journal       = {Inverse Problems},
-  year          = {2002},
-  volume        = {19},
-  number        = {1},
-  pages         = {91},
-  month         = {dec},
-  __markedentry = {[andrew:6]},
-  abstract      = {Following an approach introduced by Lagnado and Osher (Lagnado R and Osher S 1997 J. Comput. Finance 1 13–25), we study the application of Tikhonov regularization to the financial inverse problem of calibrating a local volatility function from observed vanilla option prices. Moreover, we provide a unified treatment for this problem in two different settings: first, the generalized Black–Scholes model, and second, a trinomial tree discretization. We present serial and parallel implementations of the method in the discrete setting, using a probabilistic interpretation to compute, at significantly reduced cost, the gradient of the cost criterion. We illustrate the stability of this regularized calibration procedure by numerical examples. Finally we extend this methodology to the problem of calibration with American option prices.},
-  doi           = {10.1088/0266-5611/19/1/306},
-  url           = {https://dx.doi.org/10.1088/0266-5611/19/1/306},
+  author   = {S Crépey},
+  title    = {{Calibration of the local volatility in a trinomial tree using Tikhonov regularization}},
+  journal  = {Inverse Problems},
+  year     = {2002},
+  volume   = {19},
+  number   = {1},
+  pages    = {91},
+  month    = {dec},
+  abstract = {Following an approach introduced by Lagnado and Osher (Lagnado R and Osher S 1997 J. Comput. Finance 1 13–25), we study the application of Tikhonov regularization to the financial inverse problem of calibrating a local volatility function from observed vanilla option prices. Moreover, we provide a unified treatment for this problem in two different settings: first, the generalized Black–Scholes model, and second, a trinomial tree discretization. We present serial and parallel implementations of the method in the discrete setting, using a probabilistic interpretation to compute, at significantly reduced cost, the gradient of the cost criterion. We illustrate the stability of this regularized calibration procedure by numerical examples. Finally we extend this methodology to the problem of calibration with American option prices.},
+  doi      = {10.1088/0266-5611/19/1/306},
+  url      = {https://dx.doi.org/10.1088/0266-5611/19/1/306},
 }
 
 @Article{Wang2021c,
@@ -22233,6 +22231,207 @@ La connaissance du langage repose-t-elle sur la représentation mentale de règl
   eprinttype  = {arXiv},
   file        = {online:http\://arxiv.org/pdf/2201.07880v2:PDF},
   keywords    = {q-fin.CP, econ.EM},
+}
+
+@Article{Sridi2023a,
+  author      = {Abir Sridi and Paul Bilokon},
+  title       = {{Applying Deep Learning to Calibrate Stochastic Volatility Models}},
+  journal     = {{ArXiv}},
+  year        = {2023},
+  note        = {Available at \url{https://arxiv.org/abs/2309.07843}},
+  abstract    = {Stochastic volatility models, where the volatility is a stochastic process, can capture most of the essential stylized facts of implied volatility surfaces and give more realistic dynamics of the volatility smile/skew. However, they come with the significant issue that they take too long to calibrate. Alternative calibration methods based on Deep Learning (DL) techniques have been recently used to build fast and accurate solutions to the calibration problem. Huge and Savine developed a Differential Machine Learning (DML) approach, where Machine Learning models are trained on samples of not only features and labels but also differentials of labels to features. The present work aims to apply the DML technique to price vanilla European options (i.e. the calibration instruments), more specifically, puts when the underlying asset follows a Heston model and then calibrate the model on the trained network. DML allows for fast training and accurate pricing. The trained neural network dramatically reduces Heston calibration's computation time. In this work, we also introduce different regularisation techniques, and we apply them notably in the case of the DML. We compare their performance in reducing overfitting and improving the generalisation error. The DML performance is also compared to the classical DL (without differentiation) one in the case of Feed-Forward Neural Networks. We show that the DML outperforms the DL. The complete code for our experiments is provided in the GitHub repository: https://github.com/asridi/DML-Calibration-Heston-Model},
+  date        = {2023-09-14},
+  eprint      = {2309.07843v2},
+  eprintclass = {q-fin.CP},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/2309.07843v2:PDF},
+  keywords    = {q-fin.CP, cs.AI, q-fin.MF, q-fin.PR, q-fin.RM},
+}
+
+@Article{DiFrancesco2022a,
+  author      = {Marco Di Francesco and Kevin Kamm},
+  title       = {{CDO calibration via Magnus Expansion and Deep Learning}},
+  journal     = {{ArXiv}},
+  year        = {2022},
+  note        = {Available at \url{https://arxiv.org/abs/2212.12318}},
+  abstract    = {In this paper, we improve the performance of the large basket approximation developed by Reisinger et al. to calibrate Collateralized Debt Obligations (CDO) to iTraxx market data. The iTraxx tranches and index are computed using a basket of size $K= 125$. In the context of the large basket approximation, it is assumed that this is sufficiently large to approximate it by a limit SPDE describing the portfolio loss of a basket with size $K\rightarrow \infty$. For the resulting SPDE, we show four different numerical methods and demonstrate how the Magnus expansion can be applied to efficiently solve the large basket SPDE with high accuracy. Moreover, we will calibrate a structural model to the available market data. For this, it is important to efficiently infer the so-called initial distances to default from the Credit Default Swap (CDS) quotes of the constituents of the iTraxx for the large basket approximation. We will show how Deep Learning techniques can help us to improve the performance of this step significantly. We will see in the end a good fit to the market data and develop a highly parallelizable numerical scheme using GPU and multithreading techniques.},
+  date        = {2022-12-23},
+  eprint      = {2212.12318v1},
+  eprintclass = {q-fin.RM},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/2212.12318v1:PDF},
+  keywords    = {q-fin.RM, q-fin.CP},
+}
+
+@Article{Stillman2023a,
+  author      = {Namid R. Stillman and Rory Baggott and Justin Lyon and Jianfei Zhang and Dingqiu Zhu and Tao Chen and Perukrishnen Vytelingum},
+  title       = {{Deep Calibration of Market Simulations using Neural Density Estimators and Embedding Networks}},
+  journal     = {{ArXiv}},
+  year        = {2023},
+  note        = {Available at \url{https://arxiv.org/abs/2311.11913}},
+  abstract    = {The ability to construct a realistic simulator of financial exchanges, including reproducing the dynamics of the limit order book, can give insight into many counterfactual scenarios, such as a flash crash, a margin call, or changes in macroeconomic outlook. In recent years, agent-based models have been developed that reproduce many features of an exchange, as summarised by a set of stylised facts and statistics. However, the ability to calibrate simulators to a specific period of trading remains an open challenge. In this work, we develop a novel approach to the calibration of market simulators by leveraging recent advances in deep learning, specifically using neural density estimators and embedding networks. We demonstrate that our approach is able to correctly identify high probability parameter sets, both when applied to synthetic and historical data, and without reliance on manually selected or weighted ensembles of stylised facts.},
+  date        = {2023-11-20},
+  eprint      = {2311.11913v2},
+  eprintclass = {cs.LG},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/2311.11913v2:PDF},
+  keywords    = {cs.LG, q-fin.CP, stat.ML},
+}
+
+@Article{Bates1996a,
+  author   = {Bates, David S.},
+  title    = {{Jumps and Stochastic Volatility: Exchange Rate Processes Implicit in Deutsche Mark Options}},
+  journal  = {{The Review of Financial Studies}},
+  year     = {1996},
+  volume   = {9},
+  number   = {1},
+  pages    = {69-107},
+  month    = {06},
+  issn     = {0893-9454},
+  abstract = {{An efficient method is developed for pricing American options on stochastic volatility/jump-diffusion processes under systematic jump and volatility risk. The parameters implicit in deutsche mark (DM) options of the model and various submodels are estimated over the period 1984 to 1991 via nonlinear generalized least squares, and are tested for consistency with \\$/DM futures prices and the implicit volatility sample path. The stochastic volatility submodel cannot explain the “volatility smile” evidence of implicit excess kurtosis, except under parameters implausible given the time series properties of implicit volatilities. Jump fears can explain the smile, and are consistent with one 8 percent DM appreciation “outlier” observed over the period 1984 to 1991.}},
+  doi      = {10.1093/rfs/9.1.69},
+  eprint   = {https://academic.oup.com/rfs/article-pdf/9/1/69/24435185/090069.pdf},
+  url      = {https://doi.org/10.1093/rfs/9.1.69},
+}
+
+@Article{Storn1997a,
+  author   = {Storn, Rainer and Price, Kenneth},
+  title    = {{Differential Evolution - A Simple and Efficient Heuristic for global Optimization over Continuous Spaces}},
+  journal  = {{Journal of Global Optimization}},
+  year     = {1997},
+  volume   = {11},
+  number   = {4},
+  pages    = {341--359},
+  month    = dec,
+  issn     = {1573-2916},
+  abstract = {A new heuristic approach for minimizing possiblynonlinear and non-differentiable continuous spacefunctions is presented. By means of an extensivetestbed it is demonstrated that the new methodconverges faster and with more certainty than manyother acclaimed global optimization methods. The newmethod requires few control variables, is robust, easyto use, and lends itself very well to parallelcomputation.},
+  refid    = {Storn1997},
+  url      = {https://doi.org/10.1023/A:1008202821328},
+}
+
+@Article{McKay1979a,
+  author    = {McKay, M. D. and Beckman, R. J. and Conover, W. J.},
+  title     = {{A Comparison of Three Methods for Selecting Values of Input Variables in the Analysis of Output from a Computer Code}},
+  journal   = {Technometrics},
+  year      = {1979},
+  volume    = {21},
+  number    = {2},
+  pages     = {239--245},
+  issn      = {00401706},
+  abstract  = {[Two types of sampling plans are examined as alternatives to simple random sampling in Monte Carlo studies. These plans are shown to be improvements over simple random sampling with respect to variance for a class of estimators which includes the sample mean and the empirical distribution function.]},
+  database  = {JSTOR},
+  publisher = {[Taylor \& Francis, Ltd., American Statistical Association, American Society for Quality]},
+  url       = {http://www.jstor.org/stable/1268522},
+}
+
+@Article{Bach2015a,
+  author    = {Bach, Sebastian and Binder, Alexander and Montavon, Gr{\'e}goire and Klauschen, Frederick and M{\"u}ller, Klaus-Robert and Samek, Wojciech},
+  title     = {On pixel-wise explanations for non-linear classifier decisions by layer-wise relevance propagation},
+  journal   = {PloS one},
+  year      = {2015},
+  volume    = {10},
+  number    = {7},
+  pages     = {e0130140},
+  publisher = {Public Library of Science San Francisco, CA USA},
+}
+
+@InProceedings{Ribeiro2016a,
+  author    = {Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos},
+  title     = {{"Why Should I Trust You?": Explaining the Predictions of Any Classifier}},
+  booktitle = {{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}},
+  year      = {2016},
+  series    = {KDD '16},
+  pages     = {1135–1144},
+  address   = {New York, NY, USA},
+  publisher = {Association for Computing Machinery},
+  abstract  = {Despite widespread adoption, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one.In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally varound the prediction. We also propose a method to explain models by presenting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem. We demonstrate the flexibility of these methods by explaining different models for text (e.g. random forests) and image classification (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classifier, and identifying why a classifier should not be trusted.},
+  doi       = {10.1145/2939672.2939778},
+  isbn      = {9781450342322},
+  keywords  = {interpretable machine learning, interpretability, explaining machine learning, black box classifier},
+  location  = {San Francisco, California, USA},
+  numpages  = {10},
+  url       = {https://doi.org/10.1145/2939672.2939778},
+}
+
+@Article{Shrikumar2016a,
+  author  = {Shrikumar, Avanti and Greenside, Peyton and Shcherbina, Anna and Kundaje, Anshul},
+  title   = {Not just a black box: Learning important features through propagating activation differences},
+  journal = {ArXiv},
+  year    = {2016},
+}
+
+@InProceedings{Shrikumar2017a,
+  author       = {Shrikumar, Avanti and Greenside, Peyton and Kundaje, Anshul},
+  title        = {Learning important features through propagating activation differences},
+  booktitle    = {International conference on machine learning},
+  year         = {2017},
+  pages        = {3145--3153},
+  organization = {PMLR},
+}
+
+@InProceedings{Sundararajan2017a,
+  author    = {Sundararajan, Mukund and Taly, Ankur and Yan, Qiqi},
+  title     = {Axiomatic attribution for deep networks},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning - Volume 70},
+  year      = {2017},
+  series    = {ICML'17},
+  pages     = {3319–3328},
+  publisher = {JMLR.org},
+  abstract  = {We study the problem of attributing the prediction of a deep network to its input features, a problem previously studied by several other works. We identify two fundamental axioms— Sensitivity and Implementation Invariance that attribution methods ought to satisfy. We show that they are not satisfied by most known attribution methods, which we consider to be a fundamental weakness of those methods. We use the axioms to guide the design of a new attribution method called Integrated Gradients. Our method requires no modification to the original network and is extremely simple to implement; it just needs a few calls to the standard gradient operator. We apply this method to a couple of image models, a couple of text models and a chemistry model, demonstrating its ability to debug networks, to extract rules from a network, and to enable users to engage with models better.},
+  location  = {Sydney, NSW, Australia},
+  numpages  = {10},
+}
+
+@Article{Bujok2012a,
+  author  = {Bujok, K. and Reisinger, C.},
+  title   = {Numerical valuation of basket credit derivatives in structural jump-diffusion models},
+  journal = {{Journal of Computational Finance}},
+  year    = {2012},
+  volume  = {15},
+  number  = {4},
+  pages   = {115--158},
+}
+
+@Article{Bush2011a,
+  author        = {Bush, N. and Hambly, B. M. and Haworth, H. and Jin, L. and Reisinger, C.},
+  title         = {{Stochastic Evolution Equations in Portfolio Credit Modelling}},
+  journal       = {{SIAM Journal on Financial Mathematics}},
+  year          = {2011},
+  volume        = {2},
+  number        = {1},
+  pages         = {627-664},
+  __markedentry = {[andrew:]},
+  abstract      = { We consider a structural credit model for a large portfolio of credit risky assets where the correlation is due to a market factor. By considering the large portfolio limit of this system we show the existence of a density process for the asset values. This density evolves according to a stochastic partial differential equation, and we establish existence and uniqueness for the solution taking values in a suitable function space. The loss function of the portfolio is then a function of the evolution of this density at the default boundary. We develop numerical methods for pricing and calibration of the model to credit indices and consider its performance before and after the credit crunch. },
+  doi           = {10.1137/100796777},
+  eprint        = {https://doi.org/10.1137/100796777},
+  url           = { 
+    
+        https://doi.org/10.1137/100796777
+    
+    
+
+},
+}
+
+@Article{Giles2012a,
+  author        = {Giles, Michael B. and Reisinger, Christoph},
+  title         = {{Stochastic Finite Differences and Multilevel Monte Carlo for a Class of SPDEs in Finance}},
+  journal       = {{SIAM Journal on Financial Mathematics}},
+  year          = {2012},
+  volume        = {3},
+  number        = {1},
+  pages         = {572-592},
+  __markedentry = {[andrew:6]},
+  abstract      = { In this article, we propose a Milstein finite difference scheme for a stochastic partial differential equation (SPDE) describing a large particle system. We show, by means of Fourier analysis, that the discretization on an unbounded domain is convergent of first order in the timestep and second order in the spatial grid size, and that the discretization is stable with respect to boundary data. Numerical experiments clearly indicate that the same convergence order also holds for boundary value problems. Multilevel path simulation, previously used for SDEs, is shown to give substantial complexity gains compared to a standard discretization of the SPDE or direct simulation of the particle system. We derive complexity bounds and illustrate the results by an application to basket credit derivatives. },
+  doi           = {10.1137/110841916},
+  eprint        = {https://doi.org/10.1137/110841916},
+  url           = { 
+    
+        https://doi.org/10.1137/110841916
+    
+    
+
+},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
