@@ -32680,6 +32680,81 @@ privacy, fairness, and safe AI.
   url       = {https://doi.org/10.1088/0004-637X/713/2/1322},
 }
 
+@Article{SpurioMancini2022a,
+  author   = {Spurio Mancini, Alessio and Piras, Davide and Alsing, Justin and Joachimi, Benjamin and Hobson, Michael P.},
+  journal  = {Mon Not R Astron Soc},
+  title    = {{CosmoPower: emulating cosmological power spectra for accelerated Bayesian inference from next-generation surveys}},
+  year     = {2022},
+  issn     = {0035-8711},
+  month    = apr,
+  number   = {2},
+  pages    = {1771--1788},
+  volume   = {511},
+  abstract = {We present CosmoPower, a suite of neural cosmological power spectrum emulators providing orders-of-magnitude acceleration for parameter estimation from two-point statistics analyses of Large-Scale Structure (LSS) and Cosmic Microwave Background (CMB) surveys. The emulators replace the computation of matter and CMB power spectra from Boltzmann codes; thus, they do not need to be re-trained for different choices of astrophysical nuisance parameters or redshift distributions. The matter power spectrum emulation error is less than $0.4{{\ \rm per\ cent}}$ in the wavenumber range $k \in [10^{-5}, 10] \, \mathrm{Mpc}^{-1}$ for redshift z ∈ [0, 5]. CosmoPower emulates CMB temperature, polarization, and lensing potential power spectra in the 5-σ region of parameter space around the Planck best-fitting values with an error ${\lesssim}10{{\ \rm per\ cent}}$ of the expected shot noise for the forthcoming Simons Observatory. CosmoPower is showcased on a joint cosmic shear and galaxy clustering analysis from the Kilo-Degree Survey, as well as on a Stage IV Euclid-like simulated cosmic shear analysis. For the CMB case, CosmoPower is tested on a Planck 2018 CMB temperature and polarization analysis. The emulators always recover the fiducial cosmological constraints with differences in the posteriors smaller than sampling noise, while providing a speed-up factor up to O(104) to the complete inference pipeline. This acceleration allows posterior distributions to be recovered in just a few seconds, as we demonstrate in the Planck likelihood case. CosmoPower is written entirely in python, can be interfaced with all commonly used cosmological samplers, and is publicly available at: https://github.com/alessiospuriomancini/cosmopower.},
+  doi      = {10.1093/mnras/stac064},
+  url      = {https://doi.org/10.1093/mnras/stac064},
+}
+
+@Article{Bolliet2024a,
+  author   = {Bolliet, Boris and Spurio Mancini, Alessio and Hill, J. Colin and Madhavacheril, Mathew and Jense, Hidde T. and Calabrese, Erminia and Dunkley, Jo},
+  journal  = {Mon Not R Astron Soc},
+  title    = {{High-accuracy emulators for observables in ΛCDM, Neff, Σmν, and w cosmologies}},
+  year     = {2024},
+  issn     = {0035-8711},
+  month    = jun,
+  number   = {1},
+  pages    = {1351--1370},
+  volume   = {531},
+  abstract = {We use the emulation framework CosmoPower to construct and publicly release neural network emulators of cosmological observables, including the cosmic microwave background (CMB) temperature and polarization power spectra, matter power spectrum, distance-redshift relation, baryon acoustic oscillation (BAO) and redshift-space distortion (RSD) observables, and derived parameters. We train our emulators on Einstein-Boltzmann calculations obtained with high-precision numerical convergence settings, for a wide range of cosmological models including ΛCDM, wCDM, ΛCDM + Neff, and ΛCDM + Σmν. Our CMB emulators are accurate to better than 0.5 per cent out to ℓ = 104, which is sufficient for Stage-IV data analysis, and our P(k) emulators reach the same accuracy level out to $k=50 \, \, \mathrm{Mpc}^{-1}$, which is sufficient for Stage-III data analysis. We release the emulators via an online repository (CosmoPower Organisation), which will be continually updated with additional extended cosmological models. Our emulators accelerate cosmological data analysis by orders of magnitude, enabling cosmological parameter extraction analyses, using current survey data, to be performed on a laptop. We validate our emulators by comparing them to class and camb and by reproducing cosmological parameter constraints derived from Planck TT, TE, EE, and CMB lensing data, as well as from the Atacama Cosmology Telescope Data Release 4 CMB data, Dark Energy Survey Year-1 galaxy lensing and clustering data, and Baryon Oscillation Spectroscopic Survey Data Release 12 BAO and RSD data.},
+  doi      = {10.1093/mnras/stae1201},
+  url      = {https://doi.org/10.1093/mnras/stae1201},
+}
+
+@Article{Adamo2024a,
+  author    = {Adamo, Joseph and Huang, Hung-Jin and Eifler, Tim},
+  journal   = {Phys. Rev. D},
+  title     = {{Neural network based emulation of galaxy power spectrum covariances: A reanalysis of BOSS DR12 data}},
+  year      = {2024},
+  month     = {Dec},
+  pages     = {123517},
+  volume    = {110},
+  doi       = {10.1103/PhysRevD.110.123517},
+  issue     = {12},
+  numpages  = {12},
+  publisher = {American Physical Society},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevD.110.123517},
+}
+
+@Article{Trusov2025a,
+  author   = {Trusov, Svyatoslav and Zarrouk, Pauline and Cole, Shaun},
+  journal  = {Mon Not R Astron Soc},
+  title    = {{Neural network-based model of galaxy power spectrum: fast full-shape galaxy power spectrum analysis}},
+  year     = {2025},
+  issn     = {0035-8711},
+  month    = apr,
+  number   = {3},
+  pages    = {1789--1799},
+  volume   = {538},
+  abstract = {We present a neural network-based emulator for the galaxy redshift-space power spectrum that enables several orders of magnitude acceleration in the galaxy clustering parameter inference, while preserving 3$\sigma$ accuracy better than 0.5 per cent up to $k_{\mathrm{max}}$ = 0.25 $\, h\text{Mpc}^{-1}$ within Lambda-cold dark matter ($\Lambda$CDM) and around 0.5  per cent $w_0$-$w_a$CDM. Our surrogate model only emulates the galaxy bias-invariant terms of one-loop perturbation theory predictions, these terms are then combined analytically with galaxy bias terms, counter-terms, and stochastic terms in order to obtain the non-linear redshift-space galaxy power spectrum. This allows us to avoid any galaxy bias prescription in the training of the emulator, which makes it more flexible. Moreover, we include the redshift $z \in [0,1.4]$ in the training which further avoids the need for re-training the emulator. We showcase the performance of the emulator in recovering the cosmological parameters of $\Lambda$CDM by analysing the suite of 25 AbacusSummit simulations that mimic the Dark Energy Spectroscopic Instrument luminous red galaxies at $z=0.5$ and 0.8, together as the emission line galaxies at $z=0.8$. We obtain similar performance in all cases, demonstrating the reliability of the emulator for any galaxy sample at any redshift in $0 \lt z \lt 1.4$. We will make our emulator public at github repository.},
+  doi      = {10.1093/mnras/staf285},
+  url      = {https://doi.org/10.1093/mnras/staf285},
+}
+
+@Article{Yang2026b,
+  author    = {Yang, Yanhui and Bird, Simeon and Ho, Ming-Feng and Qezlou, Mahdi},
+  journal   = {Phys. Rev. Lett.},
+  title     = {{Ten-Dimensional Neural Network Emulator for the Nonlinear Matter Power Spectrum}},
+  year      = {2026},
+  month     = {Feb},
+  pages     = {061001},
+  volume    = {136},
+  doi       = {10.1103/8yzy-t59w},
+  issue     = {6},
+  numpages  = {7},
+  publisher = {American Physical Society},
+  url       = {https://link.aps.org/doi/10.1103/8yzy-t59w},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
