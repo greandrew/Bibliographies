@@ -33079,16 +33079,6 @@ This contribution is a step towards building emulators of mass maps directly, ca
   volume  = {26},
 }
 
-@Article{Hascoet2005,
-  author  = {Hasco{\"e}t, Laurent and Naumann, Uwe and Pascual, Val{\'e}rie},
-  journal = {Future Generation Computer Systems},
-  title   = {``To Be Recorded'' Analysis in Reverse-Mode Automatic Differentiation},
-  year    = {2005},
-  number  = {8},
-  pages   = {1401--1417},
-  volume  = {21},
-}
-
 @Article{Christianson1994,
   author  = {Christianson, Bruce},
   journal = {Optimization Methods and Software},
@@ -34076,6 +34066,72 @@ This contribution is a step towards building emulators of mass maps directly, ca
   pages   = {404--413},
   volume  = {26},
   doi     = {10.1093/biomet/26.4.404},
+}
+
+@Article{Hascoet2005,
+  author   = {Hasco{\"e}t, Laurent and Naumann, Uwe and Pascual, Val{\'e}rie},
+  journal  = {Future Generation Computer Systems},
+  title    = {``To Be Recorded'' Analysis in Reverse-Mode Automatic Differentiation},
+  year     = {2005},
+  issn     = {0167-739X},
+  number   = {8},
+  pages    = {1401--1417},
+  volume   = {21},
+  abstract = {The automatic generation of adjoints of mathematical models that are implemented as computer programs is receiving increased attention in the scientific and engineering communities. Reverse-mode automatic differentiation is of particular interest for large-scale optimization problems. It allows the computation of gradients at a small constant multiple of the cost for evaluating the objective function itself, independent of the number of input parameters. Source-to-source transformation tools apply simple differentiation rules to generate adjoint codes based on the adjoint version of every statement. In order to guarantee correctness, certain values that are computed and overwritten in the original program must be made available in the adjoint program. For their determination we introduce a static data-flow analysis called “to be recorded” analysis. Possible overestimation of this set must be kept minimal to get efficient adjoint codes. This efficiency is essential for the applicability of source-to-source transformation tools to real-world applications.},
+  doi      = {10.1016/j.future.2004.11.009},
+  keywords = {Automatic differentiation, Reverse mode, Active variables, Memory requirement, Data-flow analysis},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0167739X04001839},
+}
+
+@Article{Goloubentsev2022a,
+  author  = {Goloubentsev, Dmitri and Lakshtanov, Evgeny},
+  journal = {International Journal of Wavelets, Multiresolution and Information Processing},
+  title   = {Automatic Adjoint Differentiation for Gradient Descent and Model Calibration},
+  year    = {2022},
+  note    = {Published online 2020; arXiv:1901.04200},
+  number  = {3},
+  pages   = {2040004},
+  volume  = {20},
+  doi     = {10.1142/S0219691320400044},
+}
+
+@TechReport{Lotz2023a,
+  author = {Lotz, Johannes and Naumann, Uwe},
+  title  = {{Faster Risk Calculation: Next Generation dco/c++}},
+  year   = {2023},
+  note   = {Introduces the dco::codegen feature subset.},
+  type   = {Technical Whitepaper},
+  school = {Numerical Algorithms Group (NAG)},
+  url    = {https://nag.com/wp-content/uploads/2023/06/faster-risk-calculation-dco.pdf},
+}
+
+@Article{Naumann2005a,
+  author     = {Naumann, Uwe and Riehme, Jan},
+  journal    = {ACM Trans. Math. Softw.},
+  title      = {{A differentiation-enabled Fortran 95 compiler}},
+  year       = {2005},
+  issn       = {0098-3500},
+  month      = dec,
+  number     = {4},
+  pages      = {458–474},
+  volume     = {31},
+  abstract   = {The availability of first derivatives of vector functions is crucial for the robustness and efficiency of a large number of numerical algorithms. An upcoming new version of the differentiation-enabled NAGWare Fortran 95 compiler is described that uses programming language extensions and a semantic code transformation known as automatic differentiation to provide Jacobians of numerical programs with machine accuracy. We describe a new user interface as well as the relevant algorithmic details. In particular, we focus on the source transformation approach that generates locally optimal gradient code for single assignments by vertex elimination in the linearized computational graph. Extensive tests show the superiority of this method over the current overloading-based approach. The robustness and convenience of the new compiler-feature is illustrated by various case studies.},
+  address    = {New York, NY, USA},
+  doi        = {10.1145/1114268.1114270},
+  issue_date = {December 2005},
+  keywords   = {preaccumulation, Source transformation},
+  numpages   = {17},
+  publisher  = {Association for Computing Machinery},
+  url        = {https://doi.org/10.1145/1114268.1114270},
+}
+
+@TechReport{Lotz2017a,
+  author = {Lotz, Johannes and Leppkes, Klaus and Naumann, Uwe and du Toit, Jacques},
+  title  = {{Meta Adjoint Programming in {C++}}},
+  year   = {2017},
+  number = {AIB-2017-07},
+  type   = {Technical Report},
+  school = {Department of Computer Science, RWTH Aachen University},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
